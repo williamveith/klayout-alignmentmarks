@@ -1,0 +1,25 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "Create GDS",
+        "type": "shell",
+        "command": "/Applications/KLayout.app/Contents/MacOS/klayout",
+        "args": [
+          "-b",
+          "-r",
+          "square-of-alignment-marks.py"
+        ],
+        "options": {
+          "cwd": "${workspaceFolder}"
+        },
+        "group": "build",
+        "presentation": {
+          "reveal": "always",
+          "panel": "shared"
+        },
+        "problemMatcher": []
+      }
+    ]
+  }
+  
