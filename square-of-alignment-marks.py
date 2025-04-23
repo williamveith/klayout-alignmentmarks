@@ -20,7 +20,7 @@ cross_dimensions = {"size": 15, "line_width": 2, "unit": "um"}
 
 cross_array_dimensions = {"spacing": 1000, "unit": "um"}
 
-substrate_dimensions = {"size": 100, "unit": "mm"}
+substrate_dimensions = {"size": 76.2, "unit": "mm"}
 
 pattern_dimensions = {"size": substrate_dimensions["size"] / math.sqrt(2), "unit": "mm"}
 

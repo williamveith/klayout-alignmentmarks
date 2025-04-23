@@ -8,7 +8,7 @@
         "args": [
           "-b",
           "-r",
-          "square-of-alignment-marks.py"
+          "example.py"
         ],
         "options": {
           "cwd": "${workspaceFolder}"
